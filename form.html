@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #2a3140; -webkit-text-stroke: #2a3140; background-color: #f5f5f6}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #2a3140; -webkit-text-stroke: #2a3140}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; background-color: #f5f5f6}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="utf-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Medical Form&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>form {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>align-items: left;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-family: 'Inter', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>color: black;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>background-color: white;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>padding: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>input[type="text"], input[type="date"], textarea {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>margin-bottom: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>padding: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>border-radius: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-size: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>textarea {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>height: 8rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>input[type="submit"] {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-size: 1.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>padding: 1rem 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>background-color: black;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>border-radius: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>margin-top: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>input[type="submit"]:hover {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>background-color: white;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>color: black;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;form id="medical-form"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="name"&gt;Your name:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" id="name" name="name" required&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="dob"&gt;Date of Birth:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="date" id="dob" name="dob" required&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="address"&gt;Home Address:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;textarea id="address" name="address" required&gt;&lt;/textarea&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="allergies"&gt;Allergies:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;textarea id="allergies" name="allergies"&gt;&lt;/textarea&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="diseases"&gt;Diseases:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;textarea id="diseases" name="diseases"&gt;&lt;/textarea&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="medicines"&gt;Medicine you're taking regularly:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;textarea id="<span class="Apple-converted-space">  </span>medicines" name="medicines"&gt;&lt;/textarea&gt;</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label for="contact"&gt;Contact of your friend:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;input type="text" id="contact" name="contact" required&gt;</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;input type="submit" value="Submit"&gt;</p>
+<p class="p1">&lt;/form&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script src="https://apis.google.com/js/api.js"&gt;&lt;/script&gt;</p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Client ID and API key from the Developer Console</p>
+<p class="p1"><span class="Apple-converted-space">  </span>var CLIENT_ID = '832171772527-dgq6tgsia8tl1q5e0iit0q0cnu6tv7vr.apps.googleusercontent.com';</p>
+<p class="p1"><span class="Apple-converted-space">  </span>var API_KEY = 'AIzaSyDReQoIKoOcGwhZvlpLhAjrj3SRlgj14Ts';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// ID of the Google Sheets document</p>
+<p class="p1"><span class="Apple-converted-space">  </span>var SPREADSHEET_ID = '14Jx-zjvH3yeLFwKoDhn-JSBZ9wdmIT1x0FBHGBwsz-A';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Authorization scopes required by the API; multiple scopes can be</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// included, separated by spaces.</p>
+<p class="p1"><span class="Apple-converted-space">  </span>var SCOPES = 'https://www.googleapis.com/auth/spreadsheets';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// On load, called to load the auth2 library and API client library.</p>
+<p class="p1"><span class="Apple-converted-space">  </span>function handleClientLoad() {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gapi.load('client:auth2', initClient);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Initializes the API client library and sets up sign-in state</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// listeners.</p>
+<p class="p1"><span class="Apple-converted-space">  </span>function initClient() {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gapi.client.init({</p>
+<p class="p1"><span class="Apple-converted-space">      </span>apiKey: API_KEY,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>clientId: CLIENT_ID,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest?version=v4'],</p>
+<p class="p1"><span class="Apple-converted-space">      </span>scope: SCOPES</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}).then(function () {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>// Listen for form submissions</p>
+<p class="p1"><span class="Apple-converted-space">      </span>document.getElementById('medical-form').addEventListener('submit', onSubmit);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Handles form submissions</p>
+<p class="p1"><span class="Apple-converted-space">  </span>function onSubmit(event) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>event.preventDefault();</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>var form = event.target;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>var data = new FormData(form);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// Add an incremental ID to the first column</p>
+<p class="p1"><span class="Apple-converted-space">    </span>var sheetData = [</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{ values: [[getNewID(), data.get('name'), data.get('dob'), data.get('address'), data.get('allergies'), data.get('diseases'), data.get('medicines'), data.get('contact')]] }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// Send the form data to Google Sheets</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gapi.client.sheets.spreadsheets.values.append({</p>
+<p class="p1"><span class="Apple-converted-space">      </span>spreadsheetId: SPREADSHEET_ID,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>range: 'Sheet1!A1:H1',</p>
+<p class="p1"><span class="Apple-converted-space">      </span>valueInputOption: 'USER_ENTERED',</p>
+<p class="p1"><span class="Apple-converted-space">      </span>insertDataOption: 'INSERT_ROWS',</p>
+<p class="p1"><span class="Apple-converted-space">      </span>resource: { values: sheetData }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}).then(function(response) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>console.log(response);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>alert('Form submitted successfully!');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>form.reset();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}, function(reason) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>console.error('Error: ' + reason.result.error.message);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>alert('Form submission failed: ' + reason.result.error.message);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Helper function to get a new incremental ID</p>
+<p class="p1"><span class="Apple-converted-space">  </span>function getNewID() {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>var timestamp = new Date().getTime();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>return 'ID-' + timestamp;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p3"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p4"><span class="s2">&lt;/html&gt;</span></p>
+</body>
+</html>
